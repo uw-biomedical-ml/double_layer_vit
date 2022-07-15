@@ -1,0 +1,21 @@
+- color:
+  - 255
+  - 255
+  - 0
+  id: 0
+  isthing: 0
+  name: dr
+- color:
+  - 0
+  - 255
+  - 255
+  id: 1
+  isthing: 0
+  name: dls
+- color:
+  - 128
+  - 0
+  - 255
+  id: 2
+  isthing: 0
+  name: bg
