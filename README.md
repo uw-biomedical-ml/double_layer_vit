@@ -3,6 +3,18 @@
 
 Install [PyTorch 1.9](https://pytorch.org/) then `pip install .` at the root of this repository.
 
+We release models with a Vision Transformer backbone initialized from the [improved ViT](https://arxiv.org/abs/2106.10270) models.
+Double Layer Segmentation models with ViT backbone:
+<table>
+  <tr>
+    <th colspan="2">Download</th>
+  </tr>
+<tr>
+    <td><a href="https://drive.google.com/drive/u/0/folders/1ajPRMaIFXI5Gef-H-T9jKDo9hVqvZ1Lk/checkpoint.pth">model</a></td>
+    <td><a href="https://drive.google.com/drive/u/0/folders/1ajPRMaIFXI5Gef-H-T9jKDo9hVqvZ1Lk/variant.yml">config</a></td>
+  </tr>
+</table>
+
 ## Inference
 
 You can generate segmentation maps from your own data with:
