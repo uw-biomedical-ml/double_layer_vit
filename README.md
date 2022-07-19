@@ -4,6 +4,7 @@
 Install [PyTorch 1.9](https://pytorch.org/) then `pip install .` at the root of this repository.
 
 We release models with a Vision Transformer backbone initialized from the [improved ViT](https://arxiv.org/abs/2106.10270) models.
+
 Double Layer Segmentation models with ViT backbone:
 <table>
   <tr>
