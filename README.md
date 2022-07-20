@@ -11,7 +11,7 @@ Double Layer Segmentation models with ViT backbone:
     <th colspan="2">Download</th>
   </tr>
 <tr>
-    <td><a href="https://drive.google.com/uc?export=download&id=1iq6jDziuF1qoTbTG5Hr0o8hMDt896qzS">model</a></td>
+    <td><a href="https://drive.google.com/uc?export=download&id=1iq6jDziuF1qoTbTG5Hr0o8hMDt896qzS&confirm=t&uuid=7abccd2f-f707-4e6f-b88f-ef70e5f588db">model</a></td>
     <td><a href="https://drive.google.com/uc?export=download&id=11_1Yt_LsDVsVU72cKjLW_M-MzZ4Kjgug">config</a></td>
   </tr>
 </table>
