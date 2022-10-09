@@ -157,6 +157,7 @@ def inference(
     window_stride,
     batch_size,
 ):
+    model.eval() # evaluate model
     C = model.n_cls
     seg_map = torch.zeros((C, ori_shape[0], ori_shape[1]), device=ptu.device)
     for im, im_metas in zip(ims, ims_metas):
