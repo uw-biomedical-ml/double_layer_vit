@@ -35,14 +35,30 @@ The resolution of the original B-scan image was 500 pixels in width, and 1536 pi
 ### model output
 500(w) x 768(h), rgb(24bit per pixel) with JPG format
 
+## Image cropping
+
+Usage: 
+
+python crop_bscan.py --inputdir [path to the original B-scan (500x1536) directory] --outputdir [path to the output directory]
+
+## Generate enface projection maps
+
+Usage: 
+
+python enface_proj.py  --inputdir [path to the directory where the prediction masks are stored] --outputdir [path to the directory you want to store projection maps] --eyeid [specify eyeID e.g. "P2202_OS"]
+
 ## BibTex
 
 ```
-@article{yuka2022,
-  title={Detection of Nonexudative Macular Neovascularization on Structural Optical Coherence Tomography Images using Vision Transformers},
-  author={Yuka Kihara, Mengxi Shen, Yingying Shi, Xiaoshuang Jiang, Liang Wang, Rita Laiginhas, Cancan Lyu, Jin Yang, Jeremy Liu, Rosalyn Morin, Randy Lu, Hironobu F, William J. Feuer, Giovanni Gregori, Philip J. Rosenfeld, Aaron Y. Lee},
+@article{kihara2022detection,
+  title={Detection of Nonexudative Macular Neovascularization on Structural OCT Images Using Vision Transformers},
+  author={Kihara, Yuka and Shen, Mengxi and Shi, Yingying and Jiang, Xiaoshuang and Wang, Liang and Laiginhas, Rita and Lyu, Cancan and Yang, Jin and Liu, Jeremy and Morin, Rosalyn and others},
   journal={Ophthalmology Science},
-  year={2022}
+  volume={2},
+  number={4},
+  pages={100197},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
 
